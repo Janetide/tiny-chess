@@ -1,6 +1,10 @@
 # TinyChess 4K
 
-A compact chess engine written from scratch for the [tiny-chess-01](https://make.fun) bounty: the whole program fits in 4,096 bytes.
+[![make.fun](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01)
+[![Rank](https://make.fun/badge/tiny-chess-01/Janetide/tiny-chess/rank.svg)](https://make.fun/bounty/tiny-chess-01)
+[![Reward](https://make.fun/badge/tiny-chess-01/Janetide/tiny-chess/reward.svg)](https://make.fun/bounty/tiny-chess-01)
+
+A compact chess engine written from scratch for the [tiny-chess-01](https://make.fun/bounty/tiny-chess-01) bounty: the whole program fits in 4,096 bytes.
 
 It plays with a 0x88 board, negamax search with principal-variation search, a transposition table, killer moves, and a capture-only quiescence search with check evasions. The evaluation is a single formula-based piece-square table set plus material. Every move comes from a fixed node budget, so play is fully deterministic and reproducible.
 
